@@ -66,7 +66,7 @@ export const Todo = () => {
                 <form onSubmit={handleSubmit}>
                     <div>
                         <input value={input} onChange={(Event)=>handleOnchange(Event.target.value)} type="text" className="taskname" placeholder="Enter a task"/>
-                        <button type="submit" className="submit">Add</button>
+                        <button type="submit" className="submit">Add Task</button>
                     </div>
                     
                 </form>
